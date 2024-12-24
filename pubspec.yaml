@@ -1,0 +1,38 @@
+name: flutter_application_project
+description: A new Flutter project.
+publish_to: 'none' # Keeps the package private, remove if you want to publish it to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Ensure compatibility with SDK version 3.x.x
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  # Updated dependencies
+  cupertino_icons: ^1.0.8 # Icons package for iOS-style icons
+  http: ^1.2.2 # Stable version of the http package for API calls
+  image_picker: ^0.8.4+4 # For selecting images from the gallery or camera
+  file_picker: ^5.0.1 # For picking files from the file system
+  intl: ^0.19.0 # For internationalization and date formatting
+  video_player: ^2.9.2 # For playing video files
+  path_provider: ^2.1.4 # For accessing file paths
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1 # Updated linting package for enforcing best practices
+
+flutter:
+  uses-material-design: true
+
+  # Enabling assets usage
+  assets:
+    - assets/default_profile.png # Asset for default profile picture
+    - assets/bg1.png
+    - assets/bg.png
+    - assets/Profile.png
+    - assets/bg3.png
